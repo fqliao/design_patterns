@@ -9,7 +9,7 @@ package stratege;
 public class Client {
 
 	public static void main(String[] args) {
-		int type = 3;//优惠类型，0：不优惠 ，1：打折扣（8折），2：返利：满300减100
+		int type = 3;//优惠类型，0：不优惠 ，1：打折扣（8折），2：返利：满300减100 3:打5折
 		CashContext context = new CashContext(type);
 		System.out.println("合计："+context.total(300));
 	}
