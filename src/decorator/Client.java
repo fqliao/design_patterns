@@ -1,5 +1,11 @@
 package decorator;
 
+/**
+ * 测试
+ * 扩展测试：增加装饰类型 eg:帽子
+ * @author lfq
+ *
+ */
 public class Client {
 
 	public static void main(String[] args) {
@@ -24,7 +30,7 @@ public class Client {
 		//装饰
 		set.decorate(xc);
 		set.show();
-		
+	
 	}
 
 }
