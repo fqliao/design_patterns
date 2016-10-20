@@ -1,13 +1,13 @@
 package decorator;
 
 /**
- * 具体服装类，具体装饰类
- * 继承装饰类
- * 覆盖父装饰类的方法，先调用父类的装饰方法，再增加自己的逻辑
- * @author lfq
- *
+ * @decription:垮裤装饰
+ * @version:1.1
+ * @date: 2016年10月20日下午8:23:43
+ * @author: lfq
+ * 
  */
-public class BigTrouser extends Finery {
+public class BigTrouser extends DecorateShow {
 
 	@Override
 	public void show() {
