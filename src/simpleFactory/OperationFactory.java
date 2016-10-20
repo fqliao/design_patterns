@@ -1,4 +1,4 @@
-package factory;
+package simpleFactory;
 /**
  * 工厂模式
  * 增加新类，创建新类（继承父类，重新方法）

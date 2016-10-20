@@ -1,4 +1,4 @@
-package factory;
+package simpleFactory;
 /**
  * 运算混合
  * @author lfq

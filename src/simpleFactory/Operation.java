@@ -1,4 +1,4 @@
-package factory;
+package simpleFactory;
 /**
  * 运算操作类
  * @author lfq

@@ -1,4 +1,4 @@
-package factory;
+package simpleFactory;
 /**
  * 运算减法
  * @author lfq
