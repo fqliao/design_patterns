@@ -12,21 +12,23 @@ package stratege;
 public class CashContext {
 	
 	private Cash cash;//收银父类,该类与CashContext类是组合关系
-	public CashContext(int type){//根据优惠类型选择
-		switch(type){
-			case 0://原价
-				cash = new CashNormal();
-				break;
-			case 1://打8折
-				cash = new CashDiscount(0.8);
-				break;
-			case 2://满300减100
-				cash = new CashRebate(300,100);
-				break;	
-			case 3://打6折
-				cash = new CashDiscount(0.6);
-				break;	
-		}
+	public CashContext(Cash cash){//根据优惠类型选择
+		this.cash = cash;
+		//将简单工厂模式的功能整合在策略模式里：策略模式+简单工厂模式
+//		switch(type){
+//			case 0://原价
+//				cash = new CashNormal();
+//				break;
+//			case 1://打8折
+//				cash = new CashDiscount(0.8);
+//				break;
+//			case 2://满300减100
+//				cash = new CashRebate(300,100);
+//				break;	
+//			case 3://打6折
+//				cash = new CashDiscount(0.6);
+//				break;	
+//		}
 	}
 	
 	/**
